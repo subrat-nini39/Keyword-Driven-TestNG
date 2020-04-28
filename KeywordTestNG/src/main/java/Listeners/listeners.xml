@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNGListenerSuite">
+
+	<listeners>
+		<listener class-name="Listeners.Listeners"/>
+	<listeners>
+	
+	<test name="TestNG">
+		<classes>
+			<class name="com.keyword.TestNG.TestNG">
+				<methods>
+					<include name="AndhraBankLoan"/>	
+					<include name="AndhraBankCustomerCorner"/>	
+					<include name="AndhraBankSecurityTips"/>
+				<methods>
+			<class>
+		<classes>
+	<test>
+<suite>					

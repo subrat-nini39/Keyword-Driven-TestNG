@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-20T18:01:31 IST" name="Default suite" finished-at="2020-04-20T18:02:01 IST" duration-ms="29570">
+  <suite started-at="2020-04-23T11:45:32 IST" name="Default suite" finished-at="2020-04-23T11:47:31 IST" duration-ms="118749">
     <groups>
     </groups>
-    <test started-at="2020-04-20T18:01:31 IST" name="Default test" finished-at="2020-04-20T18:02:01 IST" duration-ms="29570">
+    <test started-at="2020-04-23T11:45:32 IST" name="Default test" finished-at="2020-04-23T11:47:31 IST" duration-ms="118749">
       <class name="com.keyword.TestNG.TestNG">
-        <test-method signature="AndhraBank()[pri:0, instance:com.keyword.TestNG.TestNG@3b07a0d6]" started-at="2020-04-20T18:01:31 IST" name="AndhraBank" finished-at="2020-04-20T18:02:01 IST" duration-ms="29504" status="PASS">
+        <test-method signature="AndhraBank()[pri:0, instance:com.keyword.TestNG.TestNG@3b07a0d6]" started-at="2020-04-23T11:45:32 IST" name="AndhraBank" finished-at="2020-04-23T11:47:31 IST" duration-ms="118566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AndhraBank -->

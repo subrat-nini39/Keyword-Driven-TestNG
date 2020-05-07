@@ -5,16 +5,16 @@ import org.testng.TestListenerAdapter;
 
 public class Listeners extends TestListenerAdapter {
 	
-	public void ontestStart(ITestResult tr) {
+	public void onTestStart(ITestResult tr) {
 		System.out.println("Test Started");
 	}
-	public void ontestSuccess(ITestResult tr) {
+	public void onTestSuccess(ITestResult tr) {
 		System.out.println("Test Success");
 	}
-	public void ontestFailure(ITestResult tr) {
+	public void onTestFailure(ITestResult tr) {
 		System.out.println("Test Failed");
 	}
-	public void ontestSkipped(ITestResult tr) {
+	public void onTestSkipped(ITestResult tr) {
 		System.out.println("Test Skipped");
 	}
 	

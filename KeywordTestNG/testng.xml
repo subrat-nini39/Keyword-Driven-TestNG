@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="ExtentReportListener.ExtentReportListener" />
+		<listener class-name="Listeners.Listeners" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.keyword.TestNG.TestNG">
+				<methods>
+					<include name="AndhraBankLoan"/>	
+					<include name="AndhraBankCustomerCorner"/>	
+					<include name="FailedTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

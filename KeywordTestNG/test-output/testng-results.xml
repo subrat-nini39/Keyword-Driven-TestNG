@@ -1,17 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-23T11:45:32 IST" name="Default suite" finished-at="2020-04-23T11:47:31 IST" duration-ms="118749">
+  <suite started-at="2020-05-06T13:18:45 IST" name="Suite" finished-at="2020-05-06T13:20:19 IST" duration-ms="93209">
     <groups>
     </groups>
-    <test started-at="2020-04-23T11:45:32 IST" name="Default test" finished-at="2020-04-23T11:47:31 IST" duration-ms="118749">
+    <test started-at="2020-05-06T13:18:45 IST" name="Test" finished-at="2020-05-06T13:20:19 IST" duration-ms="93209">
       <class name="com.keyword.TestNG.TestNG">
-        <test-method signature="AndhraBank()[pri:0, instance:com.keyword.TestNG.TestNG@3b07a0d6]" started-at="2020-04-23T11:45:32 IST" name="AndhraBank" finished-at="2020-04-23T11:47:31 IST" duration-ms="118566" status="PASS">
+        <test-method signature="AndhraBankLoan()[pri:1, instance:[TestNG passed=0 failed=0 skipped=0]]" started-at="2020-05-06T13:18:46 IST" name="AndhraBankLoan" finished-at="2020-05-06T13:19:35 IST" duration-ms="49142" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AndhraBank -->
+        </test-method> <!-- AndhraBankLoan -->
+        <test-method signature="AndhraBankCustomerCorner()[pri:3, instance:[TestNG passed=0 failed=0 skipped=0]]" started-at="2020-05-06T13:19:35 IST" name="AndhraBankCustomerCorner" finished-at="2020-05-06T13:20:19 IST" duration-ms="43998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AndhraBankCustomerCorner -->
+        <test-method signature="FailedTest()[pri:2, instance:[TestNG passed=0 failed=0 skipped=0]]" started-at="2020-05-06T13:19:35 IST" name="FailedTest" finished-at="2020-05-06T13:19:35 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.fail(Assert.java:102)
+at com.keyword.TestNG.TestNG.FailedTest(TestNG.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailedTest -->
       </class> <!-- com.keyword.TestNG.TestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
